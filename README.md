@@ -1,6 +1,33 @@
-# Getting Started with Create React App
+# OIDC Authentication with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project is a single-page web application (SPA) that integrates OpenID Connect (OIDC) authentication with a social media provider (Google, Microsoft, GitHub, etc.). Upon successful login, it displays minimal demographic information of the authenticated user.
+
+## Prerequisites
+- Node.js
+- React
+- OIDC provider credentials (Google, Microsoft, or GitHub)
+
+## Installation Instructions
+1. Clone the repository:
+   git clone https://github.com/Hassan-Naeem-code/OIDC.git
+
+2. Navigate to the project directory:
+   cd OIDC
+
+3. Install dependencies:
+   npm install or yarn install   
+
+## Usage Instructions
+
+1. Create a project on your chosen OIDC provider (Google, GitHub, etc.) and obtain the client credentials.
+
+2. Add the OIDC credentials to your .env file or directly in the code as needed.
+
+3. Run the app locally:
+   npm start
+
+4. Open the application in your browser at http://localhost:3000.
 
 ## Available Scripts
 
@@ -45,26 +72,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
