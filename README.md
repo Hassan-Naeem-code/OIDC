@@ -4,7 +4,6 @@
 This project is a single-page web application (SPA) that integrates OpenID Connect (OIDC) authentication with a social media provider (Google, Microsoft, GitHub, etc.). Upon successful login, it displays minimal demographic information of the authenticated user.
 
 ## Prerequisites
-- Node.js
 - React
 - OIDC provider credentials (Google, Microsoft, or GitHub)
 
